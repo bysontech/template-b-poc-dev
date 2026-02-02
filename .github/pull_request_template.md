@@ -1,17 +1,17 @@
 ## Summary
-- 
+-
 
 ## Why
-- 
+-
 
 ## How to test
-- [ ] __INSTALL_CMD__
-- [ ] __LINT_CMD__
-- [ ] __TYPECHECK_CMD__
-- [ ] __TEST_CMD__
-- [ ] __BUILD_CMD__
+- [ ] `npm ci`
+- [ ] `npm run lint`
+- [ ] `npm run typecheck`
+- [ ] `npm test`
+- [ ] `npm run build`
 - Manual:
-  - 
+  -
 
 ## Risks / Rollback
 - Risks:
