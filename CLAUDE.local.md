@@ -1,23 +1,23 @@
-# Project-local Rules (EDIT THIS PER PROJECT)
+# Project-local Rules
 
 ## Project identity
-- Project: __PROJECT_NAME__
-- Repo: __REPO_URL__
-- Owner/Brand: __BRAND__
+- Project: template-b-poc-dev
+- Repo: https://github.com/bysontech/template-b-poc-dev
+- Owner/Brand: BysonTech
 
 ## Tech stack (brief)
-- __STACK_SUMMARY__
+- Cloudflare Pages + Vite + React + TypeScript + PWA (vite-plugin-pwa) + IndexedDB (Dexie)
 
 ## Allowed change areas
-- Safe paths: __SAFE_PATHS__
-- Avoid paths (touch only if asked): __NO_TOUCH_PATHS__
+- Safe paths: src/, public/, docs/, .github/, scripts/
+- Avoid paths (touch only if asked): (none)
 
 ## Commands (must be accurate)
-- Install: __INSTALL_CMD__
-- Lint: __LINT_CMD__
-- Typecheck: __TYPECHECK_CMD__
-- Test: __TEST_CMD__
-- Build: __BUILD_CMD__
+- Install: npm ci
+- Lint: npm run lint
+- Typecheck: npm run typecheck
+- Test: npm test
+- Build: npm run build
 
 ## Definition of Done
 - CI passes
@@ -26,4 +26,6 @@
 - Docs updated if behavior changes
 
 ## Notes
-- __PROJECT_NOTES__
+- Template B: Client-only PWA (no server/Workers)
+- Data stored locally in IndexedDB via Dexie
+- No external API key handling (use Template C if needed)
